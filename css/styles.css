@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+#container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 0;
+}
+
+
+/*Header*/
+
+.header-inner {
+	height: 249px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.logo-svg {
+	fill: #000;
+}
+
+.burger-icon {
+	display: none;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	width: 403px;
+}
+
+.nav-item-link {
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 20px;
+	color: #000;
+}
+
+
+/*Body*/
+
+.carousel {
+	margin-bottom: 42px;
+}
+
+.carousel-img {
+	width: 100%;
+}
+
+.legend-wrap {
+	padding-bottom: 42px;
+}
+
+.legend {
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 49px;
+	text-align: center;
+	padding: 15px 0;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.dates {
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0;
+}
+
+.dates-item {
+	width: 500px;
+	height: 394px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dates-item-text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	width: 400px;
+}
+
+.date {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 59px;
+}
+
+.contacts {
+	position: relative;
+}
+
+.message-textarea {
+	display: block;
+	width: 100%;
+	height: 120px;
+	margin-top: 47px;
+	margin-bottom: 100px;
+	padding: 48px 31px;
+}
+
+.message-textarea::placeholder {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	opacity: 0.5;
+}
+
+.button-send {
+	width: 200px;
+	height: 60px;
+	background: #000000;
+	border-radius: 8px;
+	position: absolute;
+	top: 157px;
+	right: 30px;
+}
+
+.button-text {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 34px;
+	color: #FFFFFF;
+}

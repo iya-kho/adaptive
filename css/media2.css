@@ -1,0 +1,130 @@
+@media screen and (max-width: 375px) {
+
+	#container{
+	width: 100%;
+	}
+
+	.header {
+		height: 0;
+		position: relative;
+	}
+
+	.carousel {
+		width: 100%;
+	}
+
+	.burger-icon {
+		z-index: 1000;
+		position: absolute;
+		top: 19px;
+		right: 19px;
+	}
+
+	.burger-icon-inner,
+	.burger-icon:before,
+	.burger-icon:after {
+		background: #fff;
+	}
+
+	/*Menu open*/
+
+	.menu-open.header {
+		height: 332px;
+		padding: 30px 20px;
+	}
+
+	.menu-open .header-inner {
+		height: 100%;
+		width: 100%;
+		display: block;
+	}
+
+	.menu-open .header-logo {
+		position: absolute;
+		left: 0;
+		margin-left: 0;
+		top: 0;
+	}
+
+	.menu-open .nav-list {
+		position: absolute;
+		left: 20px;
+		flex-direction: column;
+		height: 106px;
+	}
+
+
+
+	/*Body*/
+
+	.legend-wrap,
+	.history,
+	.contacts {
+		margin-right: 20px;
+		margin-left: 20px;
+	} 
+
+	.legend-wrap {
+		padding-bottom: 26px;
+	}
+
+	.legend {
+		font-size: 18px;
+		line-height: 22px;
+		margin-top: 26px;
+	}
+
+	h2 {
+    	font-size: 20px;
+		line-height: 24px;
+		margin-bottom: 25px;
+    }
+
+    h2:nth-child(2) {
+    	margin-bottom: 32px;
+    }
+
+    .dates-item {
+		padding: 20px;
+	}
+
+	.dates-item:nth-child(2) {
+		margin-bottom: 26px;
+	}
+
+	.dates-item-text {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.date {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.message-textarea {
+		margin-bottom: 180px;
+		height: 150px;
+		padding-top: 20px;
+	}
+
+	.button-send {
+		width: 100%;
+		position: absolute;
+		top: 258px;
+		left: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+}
