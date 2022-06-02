@@ -15,6 +15,7 @@ ul {
 #container{
 	width: 1024px;
 	margin: 0 auto;
+	position: relative;
 }
 
 h1 {
@@ -53,6 +54,10 @@ h1 {
 	color: #000;
 }
 
+.nav-item:hover .nav-item-link {
+	font-size: 26px;
+}
+
 
 /*Body*/
 
@@ -75,15 +80,15 @@ h1 {
 	text-align: center;
 }
 
-h2 {
+.section-title{
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 49px;
 	text-align: center;
 	padding: 15px 0;
-	border-top: 1px solid #000000;
-	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
 }
 
 .dates {
@@ -125,7 +130,7 @@ h2 {
 	height: 120px;
 	margin-top: 47px;
 	margin-bottom: 100px;
-	padding: 48px 31px;
+	padding: 48px 250px 48px 31px;
 }
 
 .message-textarea::placeholder {
@@ -133,25 +138,27 @@ h2 {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
-	color: #000000;
+	color: #000;
 	opacity: 0.5;
 }
 
 .button-send {
 	width: 200px;
 	height: 60px;
-	background: #000000;
+	background: #000;
+	border-width: 0;
 	border-radius: 8px;
 	position: absolute;
 	top: 157px;
 	right: 30px;
-}
-
-.button-text {
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 28px;
 	line-height: 34px;
-	color: #FFFFFF;
+	color: #FFF;
+}
+
+.button-send:hover {
+	box-shadow:20px 20px 50px 10px darkgray;
 }

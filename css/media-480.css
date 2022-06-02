@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
 
 	#container{
 	width: 100%;
@@ -46,11 +46,16 @@
 		top: 0;
 	}
 
-	.menu-open .nav-list {
+	.menu-open .nav {
 		position: absolute;
-		left: 20px;
+		top: 90px;
+		left: 0;
+		margin-left: 0;
+	}
+
+	.menu-open .nav-list {
 		flex-direction: column;
-		height: 106px;
+		height: 168px;
 	}
 
 
@@ -74,13 +79,13 @@
 		margin-top: 26px;
 	}
 
-	h2 {
+	.section-title{
     	font-size: 20px;
 		line-height: 24px;
 		margin-bottom: 25px;
     }
 
-    h2:nth-child(2) {
+    .contacts .section-title {
     	margin-bottom: 32px;
     }
 
