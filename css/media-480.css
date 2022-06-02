@@ -58,7 +58,9 @@
 		height: 168px;
 	}
 
-
+	.menu-open + .carousel {
+		margin-top: 0;
+	}
 
 	/*Body*/
 
